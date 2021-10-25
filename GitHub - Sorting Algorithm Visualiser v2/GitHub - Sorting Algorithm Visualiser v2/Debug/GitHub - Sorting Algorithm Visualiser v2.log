@@ -1,0 +1,28 @@
+﻿  arryinpt.cpp
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\arryinpt.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Callbacks.cpp
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Callbacks.cpp(24,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Callbacks.cpp(25,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Callbacks.cpp(26,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Caller.cpp
+  infinite_queue.cpp
+  Interpretter.cpp
+  Moving.cpp
+  NumberBox.cpp
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\NumberBox.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+  regex_Fun.cpp
+  SortingAlgo.cpp
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\SortingAlgo.cpp(57,16): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Source.cpp(31,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Source.cpp(31,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Running Code Analysis for C/C++...
+  Generating Code...
+  GitHub - Sorting Algorithm Visualiser v2.vcxproj -> C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\Debug\GitHub - Sorting Algorithm Visualiser v2.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\FL\Enumerations.H(721): warning C26812: The enum type 'Fl_Boxtype' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\FL\Fl_Widget.H(450): warning C26812: The enum type 'Fl_Labeltype' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\FL\Fl_Widget.H(621): warning C26812: The enum type 'Fl_When' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Caller.cpp(8): warning C26495: Variable 'Caller::w' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Interpretter.cpp(233): warning C26812: The enum type 'rf::fc' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\Moving.cpp(50): warning C26812: The enum type 'DIR' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\regex_Fun.cpp(17): warning C26812: The enum type 'rf::fc' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).

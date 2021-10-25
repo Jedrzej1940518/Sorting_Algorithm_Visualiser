@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\</FILEPATH>
+      <FILENAME>regex_Fun.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'rf::fc' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>rf::isThere</FUNCTION>
+    <DECORATED>?isThere@rf@@QAE_NW4fc@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

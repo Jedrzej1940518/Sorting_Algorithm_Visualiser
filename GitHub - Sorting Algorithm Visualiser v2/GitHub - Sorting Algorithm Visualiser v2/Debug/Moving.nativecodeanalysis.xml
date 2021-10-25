@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\FL\</FILEPATH>
+      <FILENAME>Enumerations.H</FILENAME>
+      <LINE>721</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Fl_Boxtype' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>fl_box</FUNCTION>
+    <DECORATED>?fl_box@@YA?AW4Fl_Boxtype@@W41@@Z</DECORATED>
+    <FUNCLINE>721</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\FL\</FILEPATH>
+      <FILENAME>Fl_Widget.H</FILENAME>
+      <LINE>450</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Fl_Labeltype' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Fl_Widget::label</FUNCTION>
+    <DECORATED>?label@Fl_Widget@@QAEXW4Fl_Labeltype@@PBD@Z</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\FL\</FILEPATH>
+      <FILENAME>Fl_Widget.H</FILENAME>
+      <LINE>621</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Fl_When' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Fl_Widget::when</FUNCTION>
+    <DECORATED>?when@Fl_Widget@@QBE?AW4Fl_When@@XZ</DECORATED>
+    <FUNCLINE>621</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\GitHub - Sorting Algorithm Visualiser v2\</FILEPATH>
+      <FILENAME>Moving.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DIR' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>nudge</FUNCTION>
+    <DECORATED>?nudge@@YAXPAVNumberBox@@W4DIR@@HH@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
