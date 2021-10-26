@@ -9,8 +9,18 @@ The finished interpretter is built in into SAV.
 Consult the documentation to learn more about the interpretter.
 
 
+////////////////////////////////////////////////
+////////INFORMAL OVERVIEW OF THE PROJECT////////
 
-/////////////////////////////////////
+
+https://youtu.be/mnFT7NYmNsc - overview
+
+https://youtu.be/d_AS1_mZR78 - visualiser code
+
+https://youtu.be/9ScfOO42qZU - interpretter code
+
+
+///////////////////////////////////////////////
 
 i =1
 
