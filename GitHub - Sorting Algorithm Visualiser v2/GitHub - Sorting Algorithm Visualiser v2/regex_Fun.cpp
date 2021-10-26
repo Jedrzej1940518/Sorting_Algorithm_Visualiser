@@ -44,7 +44,7 @@ rf::rf() {
 	func[swp] = "swap";
 
 	func[isarry] = "\\[";
-	func[arry] = "([A-Za-z0-9]+)\\[([A-Za-z\\+\\-*\\/0-9\\s]+)\\]";
+	func[arry] = "([A-Za-z0-9]+)\\[([A-Za-z\\+\\-*\\/0-9\\s]+)\\]";		//ar[1+3*4] -> smatch[1] => ar, smatch[2] => 1+3*4
 
 	func[go] = "goto([0-9]+)";
 	func[nif] = "NOTif";

@@ -4,7 +4,7 @@
 
 
 /// <summary>
-/// Works like carousel. You take an element -> the pointer points to the next one now. If it reaches end, it goes back to beggining
+/// Works like a carousel. You take an element -> the pointer points to the next one now. If it reaches the end, it goes back to the beginning
 /// </summary>
 
 int inf_que::size() { return q.size(); }

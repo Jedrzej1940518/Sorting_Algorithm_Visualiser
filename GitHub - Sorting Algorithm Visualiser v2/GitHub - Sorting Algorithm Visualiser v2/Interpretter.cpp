@@ -374,7 +374,6 @@ void swp(string& s, SoC& sc) {
 
 	}
 }
-
 void nif(string& s, SoC& sc, inf_que& prepped_code) {
 
 	string cmp = in_par(s);

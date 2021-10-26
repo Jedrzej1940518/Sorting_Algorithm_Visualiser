@@ -56,3 +56,29 @@ u=u-1
 
 end while
 end program
+
+/////////////////////////////////
+
+
+i =0
+j=0
+
+while(i<s-1)
+
+jMin = i
+j= i+1
+	while (j<s)
+		if(ar[j]<ar[jMin])
+		jMin = j
+		end if
+	j = j+1
+	end while
+	if(jMin != i)
+		swap(ar[i], ar[jMin])
+	end if
+i=i+1
+end while
+end program
+
+
+

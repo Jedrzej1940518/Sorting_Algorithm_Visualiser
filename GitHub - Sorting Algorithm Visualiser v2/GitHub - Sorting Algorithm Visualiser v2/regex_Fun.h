@@ -31,9 +31,9 @@ struct rf {
 
 	};
 
-	int operator()(const string& s);
+	int operator()(const string& s);			//matches string s with the right rf::fc
 
-	bool isThere(fc n, const string& s);
+	bool isThere(fc n, const string& s);	//shows if fc n is in string&s
 
 	smatch match(fc n, const string& s);
 
