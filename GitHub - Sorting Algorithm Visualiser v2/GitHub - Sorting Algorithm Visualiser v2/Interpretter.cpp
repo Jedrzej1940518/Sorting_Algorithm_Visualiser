@@ -231,29 +231,32 @@ inf_que* prepare_code(list<string>& raw_code){
 }
 
 void match_lines(rf::fc fr, rf::fc nd, list<string>& raw_code) {
-	int Up = 0;
-	int Dwn = raw_code.size();
+
+	int ctr = 0;
 	for (auto p = raw_code.begin(); p != raw_code.end(); ++p) {	//this looks for the first instance of fc:: fr
 
 		if (r.isThere(fr, *p)) {
+			ctr++;
 
-			for (auto k = raw_code.end(); k != p;) {			//now we look for a matching fc:: nd
+			for (auto k = p; 1;) {			//now we look for a matching fc:: nd
 
-				--k;
+				++k;
 
-				if (r.isThere(nd, *k)) {
-					replace_lines(p, k, fr, raw_code);		//now we replace those lines
-					Dwn = raw_code.size();
+				if (r.isThere(fr, *k))
+					++ctr;
+
+				else if (r.isThere(nd, *k))
+					--ctr;
+
+				if (ctr == 0) {
+					replace_lines(p, k, fr, raw_code);
 					break;
 				}
-				Dwn--;
 			}
 		}
-
-		Up++;
 	}
-
 }
+
 void replace_lines(list<string>::iterator& Up, list <string>::iterator& Down, rf::fc arg, list<string>& raw_code) {
 
 	if (arg == rf::fc::ifstat)

@@ -1,6 +1,8 @@
-﻿LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+﻿  Interpretter.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 1435 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1411 of 1432 functions (98.5%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  GitHub - Sorting Algorithm Visualiser v2.vcxproj -> C:\Users\Dudek\source\repos\GitHub - Sorting Algorithm Visualiser v2\Release\GitHub - Sorting Algorithm Visualiser v2.exe
+  GitHub - Sorting Algorithm Visualiser v2.vcxproj -> C:\Users\Dudek\Documents\GitHub\Sorting_Algorithm_Visualiser\GitHub - Sorting Algorithm Visualiser v2\Release\GitHub - Sorting Algorithm Visualiser v2.exe
